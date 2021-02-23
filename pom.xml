@@ -16,7 +16,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.7</java.version>
         <scala.base>2.10</scala.base>
-        <scala.version>${scala.base}.4</scala.version>
+        <scala.version>2.13.5</scala.version>
     </properties>
 
     <dependencies>
