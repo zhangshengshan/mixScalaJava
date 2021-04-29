@@ -1,0 +1,21 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "21:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.scala-lang:scalap
+    versions:
+    - 2.13.4
+  - dependency-name: org.scala-lang:scala-reflect
+    versions:
+    - 2.13.4
+  - dependency-name: org.scala-lang:scala-library
+    versions:
+    - 2.13.4
+  - dependency-name: net.alchim31.maven:scala-maven-plugin
+    versions:
+    - 4.4.0
